@@ -1,0 +1,92 @@
+/*colors and fonts*/
+
+
+body {
+	background-color: rgb(230,230,230);
+	color: rgb(30,30,30);
+	font-family: courier,serif;
+	text-align: center;
+}
+
+h1	{
+
+	color: rgb(0,0,0);
+	font-family:arial,serif ;
+	font-weight: normal;
+	letter-spacing:1px; 
+	font-size: 30px
+}
+
+h2	{ 
+	color: #7D72FF;
+	font-family:arial,serif ;
+	font-weight: normal;
+	letter-spacing:1px; 
+	font-size: 24px
+}
+a  {
+	text-decoration:none;
+	color:blue;
+}
+
+a: hover {
+	color:red;
+	text-decoration: none;
+}
+
+div {
+	width: 700px;
+	margin: 40px;
+}
+@media (max-width: 700px) {
+	div {width: auto}
+}
+
+
+.container {
+	width: 700px;
+	margin: 40px auto;
+}
+
+.card-white {
+	background-color: white;
+	padding: 35px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+	border-radius: 4px;
+	margin: 20px 0px;
+}
+
+.btn-blue {
+	transition: color 0.3s ease;
+	transition: background-color 0.3s ease;
+	background-color: #7D72FF;
+	border-radius: 5px;
+	color: black;
+	padding: 15px 20px;
+}
+.btn-blue:hover {
+	color: black;
+	background-color: grey;
+}
+
+.list-inline {
+	list-style: none;
+	padding: 0px;
+}
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+.list-inline i {
+	font-size: 40px;
+	color: #7D72FF;
+	transition: color 0.3s ease;
+	text-decoration: none;
+}
+
+
+
+
+
+
+
